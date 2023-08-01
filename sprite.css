@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.head{
+    width: 100%;
+    height: 60px;
+    background-color: #009b4e;
+    display: flex;
+    position: fixed;
+}
+.Mlogo{
+    width:16%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+   width:87px;
+   height: 30px;
+}
+.navbar{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+      
+}
+.list{
+    list-style: none;
+    display: flex;
+    margin-right: 145px;;
+}
+.list li{
+    margin-left:19px;
+    font-family:AktivGroteskCdBlack;
+    font-size:10px;
+    color: white;
+    font-weight:bolder
+}
+
+.list li:hover{
+    cursor: pointer;
+    text-decoration:solid underline;
+    text-decoration-thickness: 45px;
+    text-decoration-color: #000000;
+}
+
+.naviconehead{
+    width: 25%;
+}
+
+.iconelistfirst{
+ margin-top:16px;
+display: flex;
+list-style: none;
+justify-content:right;
+}
+.user{
+   margin-top: 16px;
+   margin-left: 30px;
+   transition: transform .1s;
+   color:white;
+}
+
+.page2{
+    width: 100%;
+    height: 452PX;
+    background-color:#000000;
+    display: flex;
+}
+.page2left{
+    width: 50%;
+    float: left;
+}
+.page2right{
+    width: 50%;
+    float: right;
+}
+.img1{   
+    margin-top: 100px;
+    margin-left: 37px;
+    width: 210px;
+    margin-bottom: 19px;
+}
+.img2{
+    padding-top:60px;
+    width:100%;
+    height: 392px;
+}
+.word1{
+    color: white;
+    font-size: 40px;
+    margin-left: 37px;
+    font: weight 999;
+    font-family:"AktivGroteskCdBlack";
+    display: inline;
+}
+.btn{
+    margin-top: 40px;
+    background-color: rgb(255,209,0);
+    color: rgb(0,0,0);
+    margin-left: 37px;
+    font-size: 10px;
+    cursor: pointer;
+    border-color:white;
+    border: 1px;
+    border-radius:2px;
+    padding: 8px 21px;
+    font-family:"AktivGroteskCdBlack";
+    font-weight:999;
+}
+.btn:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+.page3{
+    margin-top:24px;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+}
+.page3left{
+    width: 50%;
+    float: left;
+}
+.page3right{
+    width: 50%;
+    float: right;
+    margin-right: 0;
+   
+}
+.frame{
+margin-left: 85px;
+}
+.word2{
+    color:#000000;
+    font-size: 40px;
+    font: weight 999;
+    font-family:"AktivGroteskCdBlack";
+    display: inline;
+}
+.para1{
+    margin-top: 8px;
+    color:#000000;
+    font-size: 19px;
+    font-weight: bolder;
+    margin-left: 3px;
+    font-family:"AktivGroteskCdBlack";
+    
+}
+.btn2{
+    margin-top: 40px;
+    background-color: rgb(255,209,0);
+    color: rgb(0,0,0);
+    margin-left: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    border-color:white;
+    border: 1px;
+    border-radius:2px;
+    padding: 8px 21px;
+    font-family:"AktivGroteskCdBlack";
+    font-weight:999;
+}
+.btn2:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+.img4{
+    width: 434px;
+}
+.para{
+    margin-top: 130px;
+    margin-left: 75px;
+    font-size: 37.0px;
+    line-height: 1.25em;
+    color: rgb(0,150,57);
+    font-weight: 900;
+    font-family:"AktivGroteskCdBlack"
+    
+}
+.page4{
+    width: 100%;
+    height: 200px;
+    background-color:  #009b4e;
+    display: flex;
+}
+.page4left{
+    width: 25%;
+    float: left;
+}
+.page4mid{
+    width:25%;
+    float: left;
+}
+.page4right{
+    width: 25%;
+    float: right;
+}
+.logolast{
+    margin-top: 60px;
+    margin-left: 145px;
+    width:87px; 
+    height: 30px;
+ }
+ .page4head{
+    margin-left:90px;
+    margin-top: 38px;
+    font-family:AktivGroteskCdBlack;
+    font-size:10px;
+    color: white;
+    font-weight:bolder  
+ }
+.phead{
+    margin-left:90px;
+    margin-top: 38px;
+    font-family:AktivGroteskCdBlack;
+    font-size:10px;
+    color: white;
+    font-weight:bolder 
+}
+.list2{
+display: inline;
+list-style: none;
+}
+.list2 li{
+    margin-left: 89px;
+    margin-top:10px;
+    font-family:AktivGroteskCdBlack;
+    font-size:8.9px;
+    color: white;
+    font-weight:bolder
+}
+
+.list2 li:hover{
+    color:#000000;
+    cursor: pointer;
+}
+.footheader{
+    width: 100%;
+    height: 25px;
+    background-color:#009b4e;
+    text-align: center;
+}
+.foothead{
+    font-family:AktivGroteskCdBlack;
+    font-size:10px;
+    color: white;
+    font-weight:bolder  
+}
+#fh:hover{
+text-decoration: underline;
+}
+.lastfooter{
+    width: 100%;
+    height: 40px;
+    background-color:#009b4e;
+    text-align: center;
+}
+.list3 li{
+    display: inline;
+    font-family:AktivGroteskCdBlack;
+    font-size:8px;
+    color: white;
+    font-weight:bolder;    
+}
+.list3 li:hover{
+    color:#000000;
+    cursor: pointer;
+}
+.iconelistlast{
+
+    margin-left:74px;
+    margin-top:25px;
+    list-style: none;
+    display: flex;
+}
+.fa {
+  padding:1px;
+  width: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      transform: scale(1.4);
+  }
+  
+  .fa-facebook {
+    background: white;
+    color: #009b4e;
+    transition: transform .1s;
+  }
+  
+  .fa-twitter {
+    background: white;
+    color: #009b4e;
+    transition: transform .1s;
+  }
+  
+  .fa-linkedin {
+    background: white;
+    color: #009b4e;
+    transition: transform .1s;
+  }
+  
+  .fa-youtube {
+    background: white;
+    color: #009b4e;
+    transition: transform .1s;
+  }
+  
+  .fa-instagram {
+    background: white;
+    color: #009b4e;
+    transition: transform .1s;
+  }
+  .fa-spotify{
+    background: white;
+    color: #009b4e;
+    transition: transform .1s;
+  }
+  .fa-user{
+    background: white;
+    color: #009b4e;
+    transition: transform .1s;
+  }
